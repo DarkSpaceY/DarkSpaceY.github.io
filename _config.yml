@@ -90,3 +90,27 @@
 #     list. Set below key to `true` to not have the link to feed rendered as
 #     part of social-links list.
 #   hide_site_feed_link: false
+title: DarkSpace-Blog
+author:
+  name: DarkSpace
+  email: yif.chien.nolimit@gmail.com
+description: >
+  这里是 DarkSpaceY 的技术与生活记录，欢迎关注！
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  show_excerpts: true
+  date_format: "%Y-%m-%d"
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/DarkSpaceY"
+    - title: Bilibili
+      icon: youtube
+      url: "https://space.bilibili.com/3493146323323491?spm_id_from=333.1007.0.0"
